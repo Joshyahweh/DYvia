@@ -1,5 +1,6 @@
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import * as Scroll from "react-scroll";
+// import * as Scroll from "react-scroll";
+// eslint-disable-next-line
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = ({ toggle, nav, close }) => {
@@ -142,7 +143,6 @@ const Navbar = ({ toggle, nav, close }) => {
             Pricing
           </Link>
         </li>
-        
 
         <div className="flex flex-col my-4">
           <button className="bg-transparent text-indigo-600 px-8 py-3 mb-4">
